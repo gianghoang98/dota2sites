@@ -109,8 +109,9 @@ body {
   </script>
 </head>
 
+
 <body>
-<body style="height:1120px">
+<body style="height:1280px">
 
 <!-- NAV BAR STARTS -->
 <nav class="navbar navbar-expand-sm fixed-top" style="background-color: #100F0F">
@@ -119,7 +120,7 @@ body {
   <ul class="navbar-nav ml-auto">
 
     <li class="nav-item">
-      <a class="nav-link" href="index.html" style="color:White" >Home</a>
+      <a class="nav-link" href="index.html" style="color:#ffdc6c" >Home</a>
     </li>
 
     <li class="nav-item">
@@ -130,10 +131,10 @@ body {
     </li>
 
     <li class="nav-item">
-      <a class="nav-link" href="Contact.html" style="color:#ffdc6c" >Contact</a>
+      <a class="nav-link" href="Contact.html" style="color:White" >Contact</a>
     </li>
 
-     <li class="nav-item">
+    <li class="nav-item">
       <a class="nav-link" href="Contact.html" style="color: White" >Blog</a>
     </li>
 
@@ -150,73 +151,53 @@ body {
 
 <!-- NAV BAR END -->
 
- <!------------------------------------------------------------>
-
-<style>
-* {box-sizing: border-box;}
-
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: #FFFFFF;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #ffdc6c;
-}
-
-.container {
-  border-radius: 5px;
-  background-color: #3F3F3F;
-  padding: 20px;
-}
-</style>
-
-<br><br><br>
-<h1 style="color:#ffdc6c" class="text-center pt-4">Contact us</h1>
-    <hr class="w-100 pt-4">
-  <br><br>
-<div class="container">
-  <form action="action_page.php">
-
-    <label style="color:White" for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label style="color:White" for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label style="color:White" for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Vietnam</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
-
-    <label style="color:White" for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-    <br><br>
-
-    <input  type="submit" value="Submit" style="color:black; height:52px; width:160px; font-size: 20px">
-
-  </form>
+<!-- CARASOUL STARTS -->
 </div>
-<!------------------------------------------------------------>
 
-<br><br><br><br><br>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="D:\Classing\Kì 7\Web 2\Task 2\1.jpg" alt="First background" width="1920" height="980">
+      <div class="carousel-caption">
+        <h1>Lycan</h1>
+        <h4>>Who keeps the company of wolves?</h4>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="D:\Classing\Kì 7\Web 2\Task 2\2.jpg" alt="Second background" width="1920" height="980">
+      <div class="carousel-caption">
+        <h1>Templar Assassin</h1>
+        <h4>My blades and my mind are as one.</h4>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="D:\Classing\Kì 7\Web 2\Task 2\3.jpg" alt="We love Jim Raynor" width="1920" height="980">
+      <div class="carousel-caption">
+        <h1>Wraith King</h1>
+        <h4> Wraiths, your king is here!</h4>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
 
 <style>
    .footer {
@@ -283,5 +264,8 @@ input[type=submit]:hover {
   <br>
 
   <p class="pt-2"> A GH product </p>
-  
-</div>
+
+
+
+</html>
+</html>
