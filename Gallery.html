@@ -110,92 +110,6 @@ body {
 </head>
 
 <body>
-<body style="height:1920px">
-  
-<style> 
-  /* Make the image fully responsive */
-  .carousel-inner img {
-    width: 100%;
-    height: 100%;
-  }
-
-  #more {display: none;}
-
-  html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-.column {
-  float: left;
-  width: 33.3%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
-
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.container {
-  padding: 0 16px;
-}
-
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.title {
-  color: grey;
-}
-
-.btn {
-  border: 2px #ffdc6c;
-  border-radius: 5px;
-  background-color: #ffdc6c;
-  color: black;
-  padding: 8px 10px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-
-  </style>
-
-  <!-- iNSERT THE JAVASCRIPT CODE HERE -->
-  <script>
-    function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
-
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more";
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less";
-    moreText.style.display = "inline";
-  }
-}
-  </script>
-</head>
-
-
-<body>
 <body style="height:800px">
 
 <!-- NAV BAR STARTS -->
@@ -220,7 +134,7 @@ body {
     </li>
 
      <li class="nav-item">
-      <a class="nav-link" href="Contact.html" style="color: White" >Blog</a>
+      <a class="nav-link" href="Blog.html" style="color: White" >Blog</a>
     </li>
 
   </ul>
